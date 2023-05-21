@@ -16,7 +16,7 @@ import PieChart180 from "./Piechart180";
 import BarGraph from './BarGraph'
 import DoubleHistogram from '../DoubleHistogram'
 import LineChartComponent from './LineGraph2'
-
+import PieChartComponent from './PieChart2'
 
 
 const Dashboard = () => {
@@ -88,6 +88,7 @@ const Dashboard = () => {
                 </div>
                 <div className="part3">
                     <LineChartComponent></LineChartComponent>
+                    <PieChartComponent></PieChartComponent>
                 </div>
                 <div className="part4"></div>
                 <div className="part5"></div>

@@ -1,0 +1,45 @@
+.legend-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;    
+    position: relative;
+    margin: 40px;
+  }
+  
+  .legend-color {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 0px;
+  }
+  
+  .legend-value {
+    display: inline-block;
+  }
+
+  .piechart22{
+    height: 380px;
+    width: 540px;
+    position: relative;
+    top:-63px;
+    left:82%;
+    border: 2px solid rgba(170, 175, 221, 0.42);
+    border-radius: 8px;
+  
+}
+
+.piechart221{
+    position: relative;
+    left: -65px;
+    top:35px
+}
+  
+  
+  
+  
+  
+  
