@@ -1,0 +1,29 @@
+.labels-piechart{
+    position: relative;
+    left: 10%;
+    margin-top: -20%;
+}
+
+.contentpie{ 
+    border: 2px solid rgba(170, 175, 221, 0.42);
+    border-radius: 8px;
+    height: 320px;
+    width: 440px;
+    position: relative;
+    left: 287px;
+    top:300px;
+}
+
+.visits{
+    position: relative;
+    top: -170px;
+    left: 162px;
+    font-size: 24px;
+}
+
+.piechart1{
+    height: 100%;
+    position: relative;
+    top:10px;
+    margin-bottom: -30px;
+}

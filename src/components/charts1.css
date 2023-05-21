@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+.part1-A{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(170, 175, 221, 0.42);
+    border-radius: 8px;
+    position: relative;
+    left: 135%;
+    height: 100px;
+    width: 200px;
+    top:230%;
+    gap:9px;
+    padding: 5px;
+}
+
+.numberAndChart{
+    display: flex;
+    flex-direction: row;
+    gap:20px;}
+
+.text-heading{
+    width: 85px;
+    height: 25px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    color: #4E5766; 
+}
+
+.number{
+    width: 82px;
+    height: 40px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.percentage{
+display: flex;
+flex-direction: row;
+gap: 5px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+}
+
+.percentage-value{
+    color:#4939FF;
+
+}
+
+.text-heading {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
