@@ -15,6 +15,9 @@ import LineCharts from './charts-test'
 import PieChart180 from "./Piechart180";
 import BarGraph from './BarGraph'
 import DoubleHistogram from '../DoubleHistogram'
+import LineChartComponent from './LineGraph2'
+
+
 
 const Dashboard = () => {
     const number1  = 6000;
@@ -83,7 +86,9 @@ const Dashboard = () => {
                     <BarGraph></BarGraph>
                     <DoubleHistogram></DoubleHistogram>
                 </div>
-                <div className="part3"></div>
+                <div className="part3">
+                    <LineChartComponent></LineChartComponent>
+                </div>
                 <div className="part4"></div>
                 <div className="part5"></div>
                 <div className="part6"></div>

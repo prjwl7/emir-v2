@@ -174,3 +174,8 @@ color: rgba(0, 0, 0, 0.7);
     left: 287px;
     top:300px;
 }
+
+.active{
+    background-color: #4939FF;
+    color: white;
+}
