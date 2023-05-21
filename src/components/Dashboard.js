@@ -17,11 +17,21 @@ import BarGraph from './BarGraph'
 import DoubleHistogram from '../DoubleHistogram'
 import LineChartComponent from './LineGraph2'
 import PieChartComponent from './PieChart2'
-
+import PartFour from './part4-components/PartFour'
+import hero from '../components/part4-components/hero.png'
+import royalEnfield from '../components/part4-components/royalEnfield.png'
+import yamaha from '../components/part4-components/yamaha.png'
+import tvs from '../components/part4-components/tvs.png'
+import ktm from '../components/part4-components/ktm.png'
+import honda from '../components/part4-components/honda.png'
+import { Button } from 'semantic-ui-react'
+import arrowRight from './Vector (11).png'
 
 const Dashboard = () => {
     const number1  = 6000;
     const percentage1 = '10%';
+    const TotalLeads = 18;
+    const Bookings = 5;
   return (
     <div className="container">
         <div className="navbar">
@@ -90,7 +100,15 @@ const Dashboard = () => {
                     <LineChartComponent></LineChartComponent>
                     <PieChartComponent></PieChartComponent>
                 </div>
-                <div className="part4"></div>
+                <div className="part4">
+                    <PartFour image={hero} TotalLeads={TotalLeads} Bookings={Bookings} ></PartFour>
+                    <PartFour image={royalEnfield} TotalLeads={TotalLeads} Bookings={Bookings} ></PartFour>
+                    <PartFour image={yamaha} TotalLeads={TotalLeads} Bookings={Bookings} ></PartFour>
+                    <PartFour image={tvs} TotalLeads={TotalLeads} Bookings={Bookings} ></PartFour>
+                    <PartFour image={ktm} TotalLeads={TotalLeads} Bookings={Bookings} ></PartFour>
+                    <PartFour image={honda} TotalLeads={TotalLeads} Bookings={Bookings} ></PartFour>
+                    <Button className='part4-button'><img src={arrowRight} alt="" /></Button>
+                </div>
                 <div className="part5"></div>
                 <div className="part6"></div>
                 <div className="part7"></div>

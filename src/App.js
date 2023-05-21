@@ -1,4 +1,5 @@
 import Dashboard from "./components/Dashboard";
+import PartFour from "./components/part4-components/PartFour";
 function App() {
   return (
     <>

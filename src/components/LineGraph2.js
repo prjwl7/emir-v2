@@ -27,7 +27,7 @@ const LineChartComponent = () => {
   return (
     <div className="line-graph" style={{border: '2px solid rgba(170, 175, 221, 0.42)',
         borderRadius: '8px', width:'855px', height:'360px', padding:10, display:'flex', flexDirection:'column', gap:20,
-        position:'relative', top:320, left:'20%'
+        position:'relative', top:320, left:287
         }}>
         <div className="topof">
             <div style={{display:'flex', flexDirection:'column',gap:20  }}>

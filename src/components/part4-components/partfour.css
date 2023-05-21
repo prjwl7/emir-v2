@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+div{       
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40;
+}
+
+.part-four{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgba(170, 175, 221, 0.42);
+    border-radius: 8px;
+    height: 91px;
+    width: 180px;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+}
+
+.brand-image{
+    height: 50px;
+    width: 50px;
+}
+
+.leads-value{
+    display: flex;
+    flex-direction: column;
+}
+
+.leads-value1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40;
+}
+
