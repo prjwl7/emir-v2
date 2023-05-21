@@ -13,8 +13,8 @@ import team from './Vector (8).png'
 import logout from './Vector (9).png'
 import LineCharts from './charts-test'
 import PieChart180 from "./Piechart180";
-
-
+import BarGraph from './BarGraph'
+import DoubleHistogram from '../DoubleHistogram'
 
 const Dashboard = () => {
     const number1  = 6000;
@@ -80,6 +80,8 @@ const Dashboard = () => {
                 </div>
                 <div className="part2">
                     <PieChart180></PieChart180>
+                    <BarGraph></BarGraph>
+                    <DoubleHistogram></DoubleHistogram>
                 </div>
                 <div className="part3"></div>
                 <div className="part4"></div>

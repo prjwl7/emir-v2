@@ -1,0 +1,29 @@
+.dHistogram-total{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(170, 175, 221, 0.42);
+    border-radius : 8px;
+    height: 280px;
+    width: 500px;
+    gap: 48px;
+    padding: 20px;
+    position: relative;
+    top:300px;
+    left:285px;
+}
+
+.dHistogram-top{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    position: relative;
+    left: 50px;
+}
+
+.dHistogram-bottom{
+    position: relative;
+    top:-50px;
+    height: 200px;
+    width: auto;
+}

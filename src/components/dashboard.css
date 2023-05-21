@@ -157,3 +157,20 @@ color: rgba(0, 0, 0, 0.7);
     flex-direction: row;
     gap: 20px;
 }
+
+.part2{
+    display: flex;
+    flex-direction: row;
+    gap:10px
+
+}
+
+.bar-graph{
+    border: 2px solid rgba(170, 175, 221, 0.42);
+    border-radius: 8px;
+    height: 320px;
+    width: 440px;
+    position: relative;
+    left: 287px;
+    top:300px;
+}
