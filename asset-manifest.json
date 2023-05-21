@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/emir-v2/static/css/main.361a587b.css",
+    "main.css": "/emir-v2/static/css/main.e0233ae1.css",
     "main.js": "/emir-v2/static/js/main.f9bdcb35.js",
     "static/js/787.9efc457d.chunk.js": "/emir-v2/static/js/787.9efc457d.chunk.js",
     "index.html": "/emir-v2/index.html",
-    "main.361a587b.css.map": "/emir-v2/static/css/main.361a587b.css.map",
+    "main.e0233ae1.css.map": "/emir-v2/static/css/main.e0233ae1.css.map",
     "main.f9bdcb35.js.map": "/emir-v2/static/js/main.f9bdcb35.js.map",
     "787.9efc457d.chunk.js.map": "/emir-v2/static/js/787.9efc457d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.361a587b.css",
+    "static/css/main.e0233ae1.css",
     "static/js/main.f9bdcb35.js"
   ]
 }
