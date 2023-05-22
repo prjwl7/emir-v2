@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+.part7-total{
+    height: 500px;
+    width: 452px;
+    border: 2px solid rgba(170, 175, 221, 0.42);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.data-row {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+.top-left-content{
+    font-size: 1000;
+}
+
+.part7-top{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.part7-filter-range{
+    border-radius: 5px;
+    height: 40px;
+}

@@ -20,6 +20,9 @@ import PieChartComponent from './PieChart2'
 import PartFour from './part4-components/PartFour'
 import DoubleHistogram2 from './dHistogram2/dHistogram2'
 import Parrt6 from './part6/Parrt6'
+import Part7 from './part7/Part7'
+import Part7B from './part7-b/Part7B'
+import Part7C from './part7-c/Part7C'
 import hero from '../components/part4-components/hero.png'
 import royalEnfield from '../components/part4-components/royalEnfield.png'
 import yamaha from '../components/part4-components/yamaha.png'
@@ -117,7 +120,11 @@ const Dashboard = () => {
                 <div className="part6">
                     <Parrt6></Parrt6>
                 </div>
-                <div className="part7"></div>
+                <div className="part7">
+                    <Part7></Part7>
+                    <Part7B></Part7B>
+                    <Part7C></Part7C>
+                </div>
             </div>
 
         </div>
