@@ -18,6 +18,8 @@ import DoubleHistogram from '../DoubleHistogram'
 import LineChartComponent from './LineGraph2'
 import PieChartComponent from './PieChart2'
 import PartFour from './part4-components/PartFour'
+import DoubleHistogram2 from './dHistogram2/dHistogram2'
+import Parrt6 from './part6/Parrt6'
 import hero from '../components/part4-components/hero.png'
 import royalEnfield from '../components/part4-components/royalEnfield.png'
 import yamaha from '../components/part4-components/yamaha.png'
@@ -109,8 +111,12 @@ const Dashboard = () => {
                     <PartFour image={honda} TotalLeads={TotalLeads} Bookings={Bookings} ></PartFour>
                     <Button className='part4-button'><img src={arrowRight} alt="" /></Button>
                 </div>
-                <div className="part5"></div>
-                <div className="part6"></div>
+                <div className="part5">
+                    <DoubleHistogram2></DoubleHistogram2>
+                </div>
+                <div className="part6">
+                    <Parrt6></Parrt6>
+                </div>
                 <div className="part7"></div>
             </div>
 

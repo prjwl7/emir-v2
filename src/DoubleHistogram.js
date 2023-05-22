@@ -13,7 +13,7 @@ const data = [
 
 const DoubleHistogram = () => {
   return (
-    <div className='dHistogram-total'>
+    <div className='dHistogram-total1'>
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '10px', position:'relative', top:-10,left:-105 }}>
         <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
           <div style={{ width: '20px', height: '20px', backgroundColor: '#FFD493', marginRight: '5px' }}></div>
@@ -24,8 +24,8 @@ const DoubleHistogram = () => {
           <span>Leads Closed</span>
         </div>
       </div>
-      <div className='dHistogram-bottom'>
-        <ResponsiveContainer width="85%" height={260}>
+      <div className='dHistogram-bottom1'>
+        <ResponsiveContainer width="100%" height={260}>
           <BarChart data={data} barGap={0}>
             <CartesianGrid strokeDasharray="3 3" vertical={false} />
             <XAxis dataKey="name" axisLine={false} label={{ value: 'Leads closed', position: 'insideBottom', dy: 10 }} />

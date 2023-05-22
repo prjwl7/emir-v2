@@ -22,7 +22,7 @@
     gap: 50px;
     position: absolute;
     width: 199px;
-    height: 200%;
+    height: 400%;
     left: 0px;
     top: 0px;
     background: linear-gradient(68.59deg, #9DBDFF 18.62%, #B7D0FC 90.49%);
@@ -117,6 +117,7 @@ color: rgba(0, 0, 0, 0.5);
     flex-direction: row;
     gap:40%;
     width: inherit;
+    z-index: 9999;
 }
 
 .filter-range{
@@ -180,6 +181,13 @@ color: rgba(0, 0, 0, 0.7);
     color: white;
 }
 
+.part5{
+    position: relative;
+    top:-320px;
+
+}
+
+
 .part4{
     position: relative;
     display: flex;
@@ -196,6 +204,15 @@ color: rgba(0, 0, 0, 0.7);
     border-radius: 8px;
 }
 
+.part4-button:hover{
+    background-color:#9DBDFF;
+}
+
 .fit-arrow{
     width: 50px;
+}
+
+.part6{
+    position: relative;
+    left: 283px;
 }

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+.Part6-divs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 1400px;
+    padding: 20px;
+    border: 2px solid rgba(170, 175, 221, 0.42);
+    border-radius: 8px;
+
+}
+
+.part6-top{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.part6-filter{
+    position: relative;
+    left: 1050px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.part6-filter-range{
+    height: 40px;
+    border-radius: 8px;
+    width: 116px;
+}
+
+.part6-bottom{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.medal{
+    width: 361px;
+    height: 120px;
+    
+    border: 2px solid rgba(170, 175, 221, 0.42);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.medal-metal{
+    position: relative;
+    left:220px;
+    height: 20px;
+    width: 21px;
+}
+.medal-top{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.medal-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+}
